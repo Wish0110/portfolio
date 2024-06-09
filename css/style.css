@@ -183,6 +183,16 @@ header{
     animation: arrow-down ease 2s infinite;
 }
 
+@keyframes arrow-down{
+    0%{
+        transform: translateY(0);
+    }
+    30%{
+        transform: translateY(10px);
+    }
+}
+
+/*full home style*/
 .flex-center{
     display: flex;
     justify-content: center;
