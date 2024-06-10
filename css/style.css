@@ -455,3 +455,56 @@ header.sticky .nav-bar{
 .edu-list .item:hover, .bar:hover{
     transform: scale(1.03);
 }
+
+/*professions section*/
+.professions .container .content{
+    width: 100%;
+}
+
+.professions-description h3{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.professions-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.professions-card{
+    background: var(--card-bg-color);
+    border-bottom: 3px solid var(--second-color);
+    padding: 50px;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow);
+}
+
+.professions-card > i{
+    color: var(--second-color);
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.professions-card h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.professions-card .learn-more-btn{
+    color: var(--third-color);
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.professions-card .learn-more-btn i{
+    transition: .3s ease;
+}
+
+.professions-card:hover .learn-more-btn i{
+    transform: translateX(10px);
+}
