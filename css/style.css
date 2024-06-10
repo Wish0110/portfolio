@@ -452,3 +452,6 @@ header.sticky .nav-bar{
     width: 50%;
 }
 
+.edu-list .item:hover, .bar:hover{
+    transform: scale(1.03);
+}
