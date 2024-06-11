@@ -28,7 +28,7 @@ modalCloseBtns.forEach((modalCloseBtn) => {
 });
 
 //projects section - modal
-const projectModals = document.querySelectorAll(".projects-modell");
+const projectModals = document.querySelectorAll(".projects-model");
 const imgCards = document.querySelectorAll(".img-card");
 const projectCloseBtns = document.querySelectorAll(".projects-close-btn");
 
