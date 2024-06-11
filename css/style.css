@@ -650,6 +650,14 @@ header.sticky .nav-bar{
     left: 0;
     background: var(--transparent-color-01);
     backdrop-filter: blur(20px);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.projects-model.active{
+    visibility: visible;
+    opacity: 1;
 }
 
 .projects-model-body{
@@ -660,6 +668,12 @@ header.sticky .nav-bar{
     padding: 40px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
+    transform: translateY(-50px);
+    transition: .5s ease;
+}
+
+.projects-model.active .projects-model-body{
+    transform: translateY(0);
 }
 
 .projects-close-btn{
