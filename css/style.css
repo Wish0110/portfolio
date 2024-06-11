@@ -732,6 +732,52 @@ header.sticky .nav-bar{
     color: var(--third-color);
 }
 
+.contact-right p{
+    color: var(--third-color);
+    font-size: 1.6em;
+    margin-bottom: 30px;
+}
+
+.contact-right p span{
+    color: var(--first-color);
+    font-weight: 700;
+}
+
+.contact-form input, .contact-form textarea{
+    border: none;
+    color: var(--first-color);
+    background: var(--transparent-color-02);
+    font-size: var(--normal-font-size);
+    margin-bottom: 20px;
+    padding: 15px 40px 40px 20px;
+    border-radius: 5px;
+}
+
+.contact-form textarea{
+    width: 100%;
+    resize: none;
+}
+
+.contact-form .first-row input{
+    width: 100%;
+}
+
+.contact-form .second-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form .second-row input{
+    width: 48%;
+}
+
+.contact-form .btn{
+    border: none;
+    margin-top: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /*max width*/
 @media screen and (max-width: 1070px){
     
