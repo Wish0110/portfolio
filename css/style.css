@@ -522,6 +522,26 @@ header.sticky .nav-bar{
     opacity: 0;
     transition: .3s ease;
 }
+.professions-modal.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.professions-modal-body{
+    position: relative;
+    background: var(--modal-bg-color);
+    max-width: 600px;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    transform: translateY(-50px);
+    transition: .5s ease;
+}
+
+.professions-modal.active .professions-modal-body{
+    transform: translateY(0);
+}
 
 .professions-modal-body{
     position: relative;

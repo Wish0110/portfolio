@@ -5,23 +5,23 @@ window.addEventListener("scroll", function(){
 });
 
 //professions section - modal
-const professionsModals = document.querySelectorAll(".profession-modal");
-const professionsBtns = document.querySelectorAll(".learn-more-btn");
+const professionsModals = document.querySelectorAll(".professions-modal");
+const learnmoreBtns = document.querySelectorAll(".learn-more-btn");
 const modalCloseBtns = document.querySelectorAll(".modal-close-btn");
 
 var modal = function(modalClick){
     professionsModals[modalClick].classList.add("active");
 }
 
-learnMoreBtns.forEach((learnMoreBtn, i) => {
-    learnMoreBtn.addEventListener("click", () => {
+learnmoreBtns.forEach((learnmoreBtn, i) => {
+    learnmoreBtn.addEventListener("click", () => {
         modal(i);
     });
 });
 
 modalCloseBtns.forEach((modalCloseBtn) => {
     modalCloseBtn.addEventListener("click", () => {
-        professionsModals.forEach((professionView) => {
+        professionsModals.forEach((modalView) => {
             modalView.classList.remove("active");
         });
     });
