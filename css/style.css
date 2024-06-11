@@ -693,3 +693,16 @@ header.sticky .nav-bar{
     margin: 20px 0;
     border-radius: 10px;
 }
+
+/*Contact Section*/
+.contact .container .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-left h2{
+    font-size: 2.1em;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
