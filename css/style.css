@@ -822,10 +822,29 @@ footer a{
     flex-direction: column;
 }
 
-.footer-container .info h3, .footer-container .followh3{
+.footer-container .info h3, .footer-container .follow h3{
     font-size: 1.1em;
     font-weight: 500;
     margin-bottom: 30px;
+}
+
+.footer-container .info ul, .footer-container .follow ul{
+    display: flex;
+}
+
+.footer-container .info a{
+    margin: 20px;
+}
+
+.footer-container .follow a{
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+.footer-copyright p{
+    font-size: var(--normal-font-size);
+    font-weight: 300;
+    margin-top: 50px;
 }
 
 /*max width*/
