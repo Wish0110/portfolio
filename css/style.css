@@ -906,8 +906,12 @@ footer a{
     cursor: pointer;
 }
 
-.theme-btn .fa-sun{
+.theme-btn .fa-sun, .theme-btn.sun .fa-moon{
     display: none;
+}
+
+.theme-btn.sun .fa-sun{
+    display: block;
 }
 
 /*max width*/
