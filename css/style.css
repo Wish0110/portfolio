@@ -847,6 +847,21 @@ footer a{
     margin-top: 50px;
 }
 
+/*scroll up*/
+.scrollToTop-btn{
+    z-index: 99999;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    width: 45px;
+    height: 45px;
+    background: var(--second-color);
+    color: #fff;
+    font-size: var(--small-font-size);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
 /*max width*/
 @media screen and (max-width: 1070px){
     
