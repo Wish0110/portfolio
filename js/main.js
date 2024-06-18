@@ -106,3 +106,8 @@ if(savedTheme){
 //responsive nav menu
 const menuBtn = document.querySelector(".nav-menu-btn");
 const closeBtn = document.querySelector(".nav-close-btn");
+const navigation = document.querySelector(".navigation");
+
+menuBtn.addEventListener("click", () => {
+    navigation.classList.remove("active");
+});
