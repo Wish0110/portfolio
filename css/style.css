@@ -135,6 +135,10 @@ header.sticky .nav-bar{
     color: var(--second-color);
 }
 
+.nav-menu-btn{
+    display: none;
+}
+
 .home{
     position: relative;
     max-width: 1250px;
@@ -929,13 +933,32 @@ footer a{
         background: var(--transparent-color-01);
     }
 
+    .nav-items{
+        position: relative;
+        background: var(--modal-bg-color);
+        width: 600px;
+        max-width: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .nav-items a{
+        margin: 15px 50px;
+    }
+    
     .nav-menu-btn{
-        background: url(../images/close.png)no-repeat;
+        background: url(../images/menu.png)no-repeat;
         filter: var(--color-filter);
         background-size: 30px;
         background-position: center;
         width: 40px;
         height: 40px;
         cursor: pointer;
+        display: block;
     }
 }
