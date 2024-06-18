@@ -936,11 +936,11 @@ footer a{
         transition: .3s ease;
     }
 
-    .navigation{
+    .navigation.active{
         visibility: visible;
         opacity: 1;
     }
-    
+
     .nav-items{
         position: relative;
         background: var(--modal-bg-color);
