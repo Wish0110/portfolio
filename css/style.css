@@ -477,6 +477,26 @@ header.sticky .nav-bar{
     width: 50%;
 }
 
+.bar .Node:before{
+    width: 80%;
+}
+
+.bar .MongoDB:before{
+    width: 80%;
+}
+
+.bar .ReactNative:before{
+    width: 60%;
+}
+
+.bar .java:before{
+    width: 50%;
+}
+
+.bar .git:before{
+    width: 50%;
+}
+
 .edu-list .item:hover, .bar:hover{
     transform: scale(1.03);
 }
