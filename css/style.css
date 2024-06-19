@@ -63,6 +63,7 @@ a{
 li{
     list-style: none;
 }
+
 /*scroll bar*/
 ::-webkit-scrollbar{
     width: 10px;
@@ -212,9 +213,9 @@ header.sticky .nav-bar{
 }
 
 .home-container .home-img img{
-    width: 90%;
+    width: 60%;
     transform: translate(0, 0);
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .home .scroll-down{
