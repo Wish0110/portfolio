@@ -1080,4 +1080,19 @@ footer a{
         background: rgba(255, 255, 255, 0.1);
         margin: 10px 0 22px;
     }
+
+    @media screen and (max-width: 730px){
+        body{
+            margin: 5rem 0 0 0;
+        }
+
+        .section-title-01{
+            font-size: 3em;
+        }
+
+        .section-title-02{
+            font-size: 2em;
+            transform: translateY(-65px);
+        }
+    }
 }
