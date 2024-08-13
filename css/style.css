@@ -1052,4 +1052,32 @@ footer a{
     .about-info .professional-list .list-item{
         justify-content: start;
     }
+
+    footer .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-container .about, .footer-container .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .footer-container .info ul{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-container .info ul li{
+        margin: 5px 0;
+    }
+
+    .footer-container .hr{
+        width: 100%;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 10px 0 22px;
+    }
 }
