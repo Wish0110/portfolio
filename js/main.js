@@ -130,4 +130,8 @@ ScrollReveal({
     delay: 100
 });
 
-ScrollReveal().reveal('.home .info h2', { dealy: 500, origin: 'left'});
+ScrollReveal().reveal('.home .info h1', { dealy: 500, origin: 'left'});
+ScrollReveal().reveal('.home .info h3, .home .info p', { dealy: 600, origin: 'right'});
+ScrollReveal().reveal('.home .info .btn', { dealy: 700, origin: 'bottom'});
+ScrollReveal().reveal('.media-icons i', { dealy: 500, origin: 'left', interval: 200});
+ScrollReveal().reveal('.home-img', { dealy: 500, origin: 'bottom'});
