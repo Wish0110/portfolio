@@ -130,8 +130,11 @@ ScrollReveal({
     delay: 100
 });
 
-ScrollReveal().reveal('.home .info h1', { dealy: 500, origin: 'left'});
-ScrollReveal().reveal('.home .info h3, .home .info p', { dealy: 600, origin: 'right'});
+ScrollReveal().reveal('.home .info h1, .section-title-01, .section-title-02', { dealy: 500, origin: 'left'});
+ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', { dealy: 600, origin: 'right'});
 ScrollReveal().reveal('.home .info .btn', { dealy: 700, origin: 'bottom'});
-ScrollReveal().reveal('.media-icons i', { dealy: 500, origin: 'left', interval: 200});
-ScrollReveal().reveal('.home-img', { dealy: 500, origin: 'bottom'});
+ScrollReveal().reveal('.media-icons i, .contact-left li', { dealy: 500, origin: 'left', interval: 200});
+ScrollReveal().reveal('.home-img, about-img', { dealy: 500, origin: 'bottom'});
+ScrollReveal().reveal('.about .description, .copy-right', { dealy: 600, origin: 'right'});
+ScrollReveal().reveal('.about .professional-list li', { dealy: 500, origin: 'right', interval:200 });
+ScrollReveal().reveal('.about .professional-list li', { dealy: 500, origin: 'right', interval:200 });
